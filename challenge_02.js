@@ -29,18 +29,19 @@ switch (cond) {
         break;
 
     case (inputAge<=12):
-        drink = "Saft";
+        drink = "Säft!";
         break;
 
-        case (inputAge<=17):
+    case (inputAge<=17):
         drink = "Cola";
         break;
 
     case (inputAge>=18):
         drink = "Wein";
         break;
+
     default:
-        drink = "Tee";
+        drink = "Wasser";
         break;
 }
 console.log(inputName+" trinkt "+drink)
